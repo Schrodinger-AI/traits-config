@@ -5,8 +5,6 @@ function formatTrait(trait_arg) {
 
 function createPrompt(config, trait_args) {
     var traitsFormatted = trait_args.map(formatTrait);
-    prompt = config.prefix + traitsFormatted.join('\n') + '\n'
-    prompt = prompt + ' The image should contain the full-body shot of the main character.'
-    prompt = prompt + ' The generated image should not contain any text or labels.'
+    prompt = config.prefix + traitsFormatted.join('\n')
     return prompt;
 }
