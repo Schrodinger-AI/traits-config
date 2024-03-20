@@ -5,6 +5,6 @@ function formatTrait(trait_arg) {
 
 function createPrompt(config, trait_args) {
     var traitsFormatted = trait_args.map(formatTrait);
-    prompt = config.prefix + traitsFormatted.join('， ')
+    prompt = config.prefix + traitsFormatted.join(', ')
     return prompt;
 }
