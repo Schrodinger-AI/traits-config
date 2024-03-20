@@ -1,6 +1,6 @@
 {
     "id": "1802798",
     "version": "1",
-    "prefix": "I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: A pixel art of meme cat, ",
+    "prefix": "Use following elements to form a meme story and generate a pixel art featuring a cat: ",
     "suffix": ""
 }
