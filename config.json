@@ -1,6 +1,6 @@
 {
     "id": "1802798",
     "version": "1",
-    "prefix": "Use following elements to form a meme story and generate a pixel art featuring a cat: ",
+    "prefix": "Compose a meme story with following descriptions, and then generate a pixel art featuring a cat: ",
     "suffix": ""
 }
