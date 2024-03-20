@@ -4,7 +4,7 @@ var contentPolicyViolationWordsReplacements = {
 }
 
 function formatTrait(trait_arg) {
-    return trait_arg.traitType + ': ' + contentPolicyViolationWordsReplacements[trait_arg.value] || trait_arg.value;
+    return trait_arg.traitType + ': ' + (contentPolicyViolationWordsReplacements[trait_arg.value] || trait_arg.value);
 }
 
 
