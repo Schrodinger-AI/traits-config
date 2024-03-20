@@ -1,5 +1,10 @@
+
+var contentPolicyViolationWordsReplacements = {
+    "Aladdin Pants": "Flowy Harem Pants"
+}
+
 function formatTrait(trait_arg) {
-    return trait_arg.traitType + ': ' + trait_arg.value
+    return trait_arg.traitType + ': ' + contentPolicyViolationWordsReplacements[trait_arg.value] || trait_arg.value;
 }
 
 
